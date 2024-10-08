@@ -352,11 +352,63 @@ footer {
 // ----------------------------------------
 
 @media (min-width: 1200px) {
+  /* GENERAL */
+
+  .branding-title,
+  .section-title,
+  .opportunities-title {
+    font-size: 50px;
+  }
+
+  .section-title {
+    margin-top: 90px;
+  }
+
+  .show {
+    margin-bottom: 0px;
+  }
+
+  .quote {
+    margin-top: 160px;
+  }
+
+  /* NAV BURGER */
+
   .navigation {
     display: flex;
   }
 
   .burger {
     display: none;
+  }
+
+  /* OPPORTUNITY BRANDING*/
+
+  .branding {
+    text-align: left;
+  }
+
+  .opportunity,
+  .quote-content {
+    font-size: 34px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    margin-top: 90px;
+  }
+
+  .footer-title {
+    font-size: 100px;
+    margin-bottom: 50px;
+  }
+
+  .footer-contact {
+    text-align: left;
+  }
+
+  .footer-social {
+    justify-content: flex-end;
   }
 }
