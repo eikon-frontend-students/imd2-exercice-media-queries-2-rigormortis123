@@ -162,7 +162,7 @@ footer {
 // ----------------------------------------
 
 .navigation {
-  display: flex;
+  display: none;
   height: 50px;
   justify-content: flex-end;
   align-items: center;
@@ -345,4 +345,18 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+// ----------------------------------------
+// Queries
+// ----------------------------------------
+
+@media (min-width: 1200px) {
+  .navigation {
+    display: flex;
+  }
+
+  .burger {
+    display: none;
+  }
 }
