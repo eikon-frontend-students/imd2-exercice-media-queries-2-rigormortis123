@@ -393,10 +393,15 @@ footer {
     font-size: 34px;
   }
 
+  .opportunities {
+    margin-top: 90px;
+  }
+
   /* FOOTER */
 
   footer {
     margin-top: 90px;
+    padding-bottom: 90px;
   }
 
   .footer-title {
@@ -410,5 +415,6 @@ footer {
 
   .footer-social {
     justify-content: flex-end;
+    font-size: 18px;
   }
 }
